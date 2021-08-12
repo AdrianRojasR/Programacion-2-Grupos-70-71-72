@@ -1,0 +1,67 @@
+com/src/ventas/dto/DetalleFacturaDTO.java
+ com.src.ventas.dto.DetalleFacturaDTO
+com/src/ventas/interfaces/GestionarProveedor.java
+ com.src.ventas.interfaces.GestionarProveedor
+ com.src.ventas.interfaces.GestionarProveedor$1
+ com.src.ventas.interfaces.GestionarProveedor$1$1
+com/src/ventas/interfaces/GestionarCliente.java
+ com.src.ventas.interfaces.GestionarCliente
+ com.src.ventas.interfaces.GestionarCliente$1
+ com.src.ventas.interfaces.GestionarCliente$1$1
+com/src/ventas/dto/ClienteDTO.java
+ com.src.ventas.dto.ClienteDTO
+com/src/ventas/interfaces/Principal.java
+ com.src.ventas.interfaces.Principal
+ com.src.ventas.interfaces.Principal$1
+ com.src.ventas.interfaces.Principal$10
+ com.src.ventas.interfaces.Principal$11
+ com.src.ventas.interfaces.Principal$2
+ com.src.ventas.interfaces.Principal$3
+ com.src.ventas.interfaces.Principal$4
+ com.src.ventas.interfaces.Principal$5
+ com.src.ventas.interfaces.Principal$6
+ com.src.ventas.interfaces.Principal$7
+ com.src.ventas.interfaces.Principal$8
+ com.src.ventas.interfaces.Principal$9
+com/src/ventas/interfaces/Factura.java
+ com.src.ventas.interfaces.Factura
+ com.src.ventas.interfaces.Factura$1
+ com.src.ventas.interfaces.Factura$2
+com/src/ventas/dto/ProveedorDTO.java
+ com.src.ventas.dto.ProveedorDTO
+com/src/ventas/dto/DevolucionDTO.java
+ com.src.ventas.dto.DevolucionDTO
+com/src/ventas/dto/ImpuestoDTO.java
+ com.src.ventas.dto.ImpuestoDTO
+com/src/ventas/interfaces/ConsultaArticulos.java
+ com.src.ventas.interfaces.ConsultaArticulos
+ com.src.ventas.interfaces.ConsultaArticulos$1
+ com.src.ventas.interfaces.ConsultaArticulos$2
+com/src/ventas/dto/ArticuloDTO.java
+ com.src.ventas.dto.ArticuloDTO
+com/src/ventas/service/SDevolucion.java
+ com.src.ventas.service.SDevolucion
+com/src/ventas/dto/FacturaDTO.java
+ com.src.ventas.dto.FacturaDTO
+com/src/ventas/dto/CategoriaDTO.java
+ com.src.ventas.dto.CategoriaDTO
+com/src/ventas/service/SPersona.java
+ com.src.ventas.service.SPersona
+com/src/ventas/interfaces/RegistrarArticulo.java
+ com.src.ventas.interfaces.RegistrarArticulo
+ com.src.ventas.interfaces.RegistrarArticulo$1
+com/src/ventas/interfaces/ActualizarInventario.java
+ com.src.ventas.interfaces.ActualizarInventario
+ com.src.ventas.interfaces.ActualizarInventario$1
+com/src/ventas/service/SFactura.java
+ com.src.ventas.service.SFactura
+com/src/ventas/service/SDetalleFactura.java
+ com.src.ventas.service.SDetalleFactura
+com/src/ventas/interfaces/Devolucion.java
+ com.src.ventas.interfaces.Devolucion
+ com.src.ventas.interfaces.Devolucion$1
+ com.src.ventas.interfaces.Devolucion$2
+com/src/ventas/dto/PersonaDTO.java
+ com.src.ventas.dto.PersonaDTO
+com/src/ventas/service/SArticulo.java
+ com.src.ventas.service.SArticulo
