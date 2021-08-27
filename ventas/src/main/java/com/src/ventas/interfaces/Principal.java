@@ -5,9 +5,11 @@
  */
 package com.src.ventas.interfaces;
 
+import com.src.ventas.service.SArticulo;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -40,29 +42,29 @@ public class Principal extends javax.swing.JFrame {
         JPanel panel = new JPanel();
 
         BufferedImage image;
-        try {
-            image = ImageIO.read(new File("C:\\Users\\danie\\Documents\\NetBeansProjects\\ventas\\src\\main\\java\\com\\src\\ventas\\interfaces\\swing.png"));
-
-            JLabel label = new JLabel(new ImageIcon(image));
-            panel.add(label);
-
-            // main window
-            JFrame.setDefaultLookAndFeelDecorated(true);
-            JInternalFrame frame = new JInternalFrame("JPanel Example");
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            JButton boton1 = new JButton("cerrar");
-            boton1.setBounds(180, 240, 100, 30);
-            frame.add(boton1);
-            // add the Jpanel to the main window
-            frame.add(panel);
-            frame.pack();
-            frame.setVisible(true);
-            frame.setSize(jInternalFrame1.getSize());
-//            jDesktopPane1.add(frame);
-            jInternalFrame1.add(frame);
-        } catch (IOException ex) {
-            Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            image = ImageIO.read(new File("C:\\Users\\danie\\Documents\\NetBeansProjects\\ventas\\src\\main\\java\\com\\src\\ventas\\interfaces\\swing.png"));
+//
+//            JLabel label = new JLabel(new ImageIcon(image));
+//            panel.add(label);
+//
+//            // main window
+//            JFrame.setDefaultLookAndFeelDecorated(true);
+//            JInternalFrame frame = new JInternalFrame("JPanel Example");
+//            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//            JButton boton1 = new JButton("cerrar");
+//            boton1.setBounds(180, 240, 100, 30);
+//            frame.add(boton1);
+//            // add the Jpanel to the main window
+//            frame.add(panel);
+//            frame.pack();
+//            frame.setVisible(true);
+//            frame.setSize(jInternalFrame1.getSize());
+////            jDesktopPane1.add(frame);
+//            jInternalFrame1.add(frame);
+//        } catch (IOException ex) {
+//            Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+//        }
 
 
         venRegistrarArticulo = new RegistrarArticulo();
@@ -352,8 +354,12 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_itemRegistrarArticuloActionPerformed
 
     private void bCrearFacturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCrearFacturaActionPerformed
-        devolucion.setVisible(false);
-        factura.setVisible(true);
+       
+            devolucion.setVisible(false);
+            factura.setVisible(true);
+            SArticulo art = new SArticulo();
+            art.consultar(2);
+       
     }//GEN-LAST:event_bCrearFacturaActionPerformed
 
     private void bDavolucionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bDavolucionActionPerformed

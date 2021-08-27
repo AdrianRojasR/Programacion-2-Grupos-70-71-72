@@ -17,7 +17,7 @@ public class FacturaDTO {
     private String vendedor;
     private Date fecha;
     private String idCliente;
-
+    public FacturaDTO(){}
     public FacturaDTO(int codigo, String vendedor, Date fecha, String idCliente) {
         this.codigo = codigo;
         this.vendedor = vendedor;
